@@ -6,8 +6,11 @@ class Solution:
         new=0
         temp2=0
         while(x!=0):
-            new=new*10 + x%10
+            temp2=x%10
+            new=new*10 + temp2
             x=int(x/10)
-        
-        return temp==new 
+        if(temp==new):
+            return True 
+        else: 
+            return False 
         
