@@ -7,7 +7,6 @@ public:
                 continue;
             else{
                 nums[j]=nums[i];
-                
                 if(i!=j)
                     nums[i]=0;
                 j++;
